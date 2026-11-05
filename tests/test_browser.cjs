@@ -13,3 +13,11 @@ assert.throws(()=>ctx.localEvaluate(parsed.records,[rules[0],{...rules[0],upper:
 assert.equal(ctx.localParse([{name:'utf16.csv',data:Buffer.concat([Buffer.from([255,254]),Buffer.from(input,'utf16le')]).toString('base64')}]).records.length,1);
 assert.equal(ctx.localParse([{name:'invalid.csv',data:Buffer.from('Zone,Blob-Nr.,Area,Quality,max. Optic').toString('base64')}]).errors.length,1);
 console.log('Browser engine regressions passed: quoted CSV, renamed total, UTF-16, boundary, missing/NG/conflicting tolerance, invalid CSV.');
+const defaults=JSON.parse(html.match(/id="defaultTolerances">([\s\S]*?)<\/script>/)[1]);
+assert.equal(defaults.length,34);
+assert.deepEqual(defaults,JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../default-tolerances.json'),'utf8')));
+for(const [product,maximum,roc] of [['BMW G65',85,100],['C1UL WS',75,100]]){
+ const r=ctx.localParse([{name:'total.csv',data:Buffer.from(input.replace('"BMW, G65"',product)).toString('base64')}]).records;
+ const out=ctx.localEvaluate(r,defaults);assert.equal(out[0].upper,maximum);assert.equal(out[1].upper,roc);
+}
+console.log('Default tolerance regressions passed: 34 embedded rules match JSON and cover both products.');

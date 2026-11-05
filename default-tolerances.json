@@ -1,0 +1,274 @@
+[
+  {
+    "product": "BMW G65",
+    "item": "A_HORIZONTAL",
+    "metric": "maximum",
+    "lower": -85.0,
+    "upper": 85.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "A_HORIZONTAL",
+    "metric": "roc",
+    "lower": -100.0,
+    "upper": 100.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "A_VERTICAL",
+    "metric": "maximum",
+    "lower": -85.0,
+    "upper": 85.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "A_VERTICAL",
+    "metric": "roc",
+    "lower": -100.0,
+    "upper": 100.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "B_HORIZONTAL",
+    "metric": "maximum",
+    "lower": -120.0,
+    "upper": 120.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "B_HORIZONTAL",
+    "metric": "roc",
+    "lower": -120.0,
+    "upper": 120.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "B_VERTICAL",
+    "metric": "maximum",
+    "lower": -120.0,
+    "upper": 120.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "B_VERTICAL",
+    "metric": "roc",
+    "lower": -120.0,
+    "upper": 120.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "C_HORIZONTAL",
+    "metric": "maximum",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "C_HORIZONTAL",
+    "metric": "roc",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "C_VERTICAL",
+    "metric": "maximum",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "C_VERTICAL",
+    "metric": "roc",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "D_HORIZONTAL_DISTORTION2",
+    "metric": "maximum",
+    "lower": -100.0,
+    "upper": 100.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "D_VERTICAL_DISTORTION2",
+    "metric": "maximum",
+    "lower": -120.0,
+    "upper": 120.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "E_HORIZONTAL_DISTORTION2",
+    "metric": "maximum",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "E_VERTICAL_DISTORTION2",
+    "metric": "maximum",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "F_HORIZONTAL_DISTORTION2",
+    "metric": "maximum",
+    "lower": -200.0,
+    "upper": 200.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "F_VERTICAL_DISTORTION2",
+    "metric": "maximum",
+    "lower": -200.0,
+    "upper": 200.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "G_HORIZONTAL",
+    "metric": "maximum",
+    "lower": -350.0,
+    "upper": 350.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "G_HORIZONTAL",
+    "metric": "roc",
+    "lower": -350.0,
+    "upper": 350.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "G_VERTICAL",
+    "metric": "maximum",
+    "lower": -350.0,
+    "upper": 350.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "BMW G65",
+    "item": "G_VERTICAL",
+    "metric": "roc",
+    "lower": -350.0,
+    "upper": 350.0,
+    "source": "默认 · 2026-01-29_100034.xml"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "A_HORIZONTAL",
+    "metric": "maximum",
+    "lower": -75.0,
+    "upper": 75.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "A_HORIZONTAL",
+    "metric": "roc",
+    "lower": -100.0,
+    "upper": 100.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "B_HORIZONTAL",
+    "metric": "maximum",
+    "lower": -110.0,
+    "upper": 110.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "B_HORIZONTAL",
+    "metric": "roc",
+    "lower": -125.0,
+    "upper": 125.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "C_HORIZONTAL",
+    "metric": "maximum",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "C_HORIZONTAL",
+    "metric": "roc",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "A_VERTICAL",
+    "metric": "maximum",
+    "lower": -75.0,
+    "upper": 75.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "A_VERTICAL",
+    "metric": "roc",
+    "lower": -100.0,
+    "upper": 100.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "B_VERTICAL",
+    "metric": "maximum",
+    "lower": -110.0,
+    "upper": 110.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "B_VERTICAL",
+    "metric": "roc",
+    "lower": -125.0,
+    "upper": 125.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "C_VERTICAL",
+    "metric": "maximum",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  },
+  {
+    "product": "C1UL WS",
+    "item": "C_VERTICAL",
+    "metric": "roc",
+    "lower": -150.0,
+    "upper": 150.0,
+    "source": "默认 · 2026-10-27_09.zone.C.csv（用户确认 Max/RoC 顺序）"
+  }
+]

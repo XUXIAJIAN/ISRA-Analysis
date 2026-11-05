@@ -1,6 +1,8 @@
 # ISRA 光学质量分析工具
 
-适用于 ISRA FAULTFINDER 无表头 `.zone.csv` 总表。Python 3.10+，无需安装第三方依赖。
+适用于 ISRA FAULTFINDER 无表头 `.zone.csv` / `.zone.C.csv` 总表。直接双击 `index.html` 即可在浏览器使用，无需安装 Python、启动服务器或连接网络。CSV、XML、DFQ 的解析与公差判定全部在浏览器本地完成。
+
+也可使用下方可选的 Python 本地服务（Python 3.10+，无第三方依赖）：
 
 ```bash
 cd /workspace/ISRA-Analysis
@@ -28,8 +30,13 @@ Max 是带符号极值，判定为 lower <= value <= upper；不使用绝对值�
 
 ```bash
 python -m unittest discover -s tests -v
+node tests/test_browser.cjs  # 可选开发验证，需 Node 18+
 ```
 
 不需要数据库、密钥或后台任务。仓库：https://github.com/XUXIAJIAN/ISRA-Analysis 。
 
 配方 `.zone.C.csv` 支持读取配置和其中附带的检测记录。配置 A/B、RoC 模式和参数按原样展示。用户已确认 `2026-10-27_09.zone.C.csv` 中两组启用标志/限值依次为 Max、RoC，且适用于 11 月 3 日。仅该文件名且品种为 C1UL WS 时自动转换；A/B 配置须相同。其他配置文件仍需确认，不自动套用。文件名不是版本完整性校验，请核对上传内容。页面同时展示分区 Max+RoC 重算与设备原判定的不一致。
+
+## 导入时报 Failed to fetch
+
+旧版本依赖 Python 接口，直接打开 HTML 或只部署静态页面会无法连接。请更新仓库后重新打开 `index.html`；新版无需接口，直接支持离线导入和分析。若已在浏览器打开旧版，刷新或关闭后重新打开。
